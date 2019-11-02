@@ -6,6 +6,7 @@
     "images": [{
         "@id": "<uri>",
         "@type": "oa:Annotation",
+        "license": "<unknown>",
         "motivation": "sc:painting",
         "on": "<uri>",
         "resource": {

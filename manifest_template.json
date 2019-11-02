@@ -5,10 +5,7 @@
     "attribution": "<unknown>",
     "label": "<unkown>",
     "logo": "",
-    "metadata": [{
-        "label": "Creator",
-        "value": "<unknown>"
-    }],
+    "metadata": [],
     "related": [],
     "sequences": [{
         "@id": "<uri>",

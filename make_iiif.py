@@ -8,13 +8,16 @@ import glob
 import hashlib
 import copy
 
-def buildManifest(manifest,uri,folder):
+def buildManifest(manifest,folder,config):
+    uri = config['baseurl']+"/manifests/"+id+".json"
     manifest['@id'] = uri
     manifest['label'] = folder
     manifest['sequences'][0]['@id'] = uri+"/sequence/1"
+    manifest['metadata'].append( { 'label' : 'creator' , 'value' : config['creator'] } )
     return manifest
 
-def addCanvasToManifest(manifest,canvas,uri,image,ic):
+def addCanvasToManifest(manifest,canvas,config,image,ic):
+    uri = manifest['@id']
     # set IDs
     canvas['@id'] = uri+"/canvas/%d" % ic
     canvas['images'][0]['@id'] = uri+"/image/%d" % ic
@@ -29,6 +32,8 @@ def addCanvasToManifest(manifest,canvas,uri,image,ic):
     canvas['images'][0]['resource']['width'] = width
     canvas['height'] = height
     canvas['images'][0]['resource']['height'] = height
+    # set license
+    canvas['images'][0]['license'] = config['license']
     # set labels
     label = image.split('/')[1].replace('_',' ')
     canvas['label'] = label
@@ -52,15 +57,14 @@ folders = [f for f in glob.glob("imageapi/*")]
 for folder in folders:
     manifest = copy.deepcopy(manifest_template)
     id = hashlib.md5(folder.encode()).hexdigest()
-    uri = config['baseurl']+"/manifests/"+id+".json"
-    manifest = buildManifest(manifest, uri, folder)
+    manifest = buildManifest(manifest, folder, config)
     images = [image for image in glob.glob(folder+"/*.tif")]
     ic = 1
     for image in images:
         canvas = copy.deepcopy(canvas_template)
-        manifest = addCanvasToManifest(manifest,canvas,uri,image,ic)
+        manifest = addCanvasToManifest(manifest,canvas,config,image,ic)
         ic = ic +1
     filename = "presentationapi/manifests/"+id+".json"
-    print "wite: "+filename
+    print "writing: "+filename
     with open(filename, 'w') as outfile:
         json.dump(manifest, outfile, sort_keys=True, indent=4, separators=(',', ': '))

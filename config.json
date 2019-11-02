@@ -1,3 +1,5 @@
 {
-    "baseurl": "https://static.185.126.47.78.clients.your-server.de"
+    "baseurl": "https://static.185.126.47.78.clients.your-server.de",
+    "creator": "Leander Seige",
+    "license": "https://creativecommons.org/licenses/by/4.0/"
 }
