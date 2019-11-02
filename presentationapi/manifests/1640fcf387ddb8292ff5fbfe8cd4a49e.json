@@ -1,0 +1,22 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://static.185.126.47.78.clients.your-server.de/manifests/1640fcf387ddb8292ff5fbfe8cd4a49e.json",
+    "@type": "sc:Manifest",
+    "attribution": "Leander Seige",
+    "label": "Burg Bad Liebenstein",
+    "logo": "",
+    "metadata": [
+        {
+            "label": "Author",
+            "value": "Leander Seige"
+        }
+    ],
+    "related": [],
+    "sequences": [
+        {
+            "@id": "https://static.185.126.47.78.clients.your-server.de/manifests/1640fcf387ddb8292ff5fbfe8cd4a49e.json/sequence/1",
+            "@type": "sc:Sequence",
+            "canvases": []
+        }
+    ]
+}

@@ -11,9 +11,10 @@ import copy
 def buildManifest(manifest,folder,config):
     uri = config['baseurl']+"/manifests/"+id+".json"
     manifest['@id'] = uri
-    manifest['label'] = folder
+    manifest['label'] = folder.split('/')[1].replace('_',' ')
+    manifest['attribution'] = config['attribution']
     manifest['sequences'][0]['@id'] = uri+"/sequence/1"
-    manifest['metadata'].append( { 'label' : 'creator' , 'value' : config['creator'] } )
+    manifest['metadata'].append( { 'label' : 'Author' , 'value' : config['creator'] } )
     return manifest
 
 def addCanvasToManifest(manifest,canvas,config,image,ic):

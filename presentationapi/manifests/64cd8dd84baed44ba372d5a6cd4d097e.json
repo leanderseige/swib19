@@ -1,0 +1,22 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://static.185.126.47.78.clients.your-server.de/manifests/64cd8dd84baed44ba372d5a6cd4d097e.json",
+    "@type": "sc:Manifest",
+    "attribution": "Leander Seige",
+    "label": "Wiese",
+    "logo": "",
+    "metadata": [
+        {
+            "label": "Author",
+            "value": "Leander Seige"
+        }
+    ],
+    "related": [],
+    "sequences": [
+        {
+            "@id": "https://static.185.126.47.78.clients.your-server.de/manifests/64cd8dd84baed44ba372d5a6cd4d097e.json/sequence/1",
+            "@type": "sc:Sequence",
+            "canvases": []
+        }
+    ]
+}

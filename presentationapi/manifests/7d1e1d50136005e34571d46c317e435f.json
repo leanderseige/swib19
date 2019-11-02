@@ -1,0 +1,22 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://static.185.126.47.78.clients.your-server.de/manifests/7d1e1d50136005e34571d46c317e435f.json",
+    "@type": "sc:Manifest",
+    "attribution": "Leander Seige",
+    "label": "Wasserfall Trusetal",
+    "logo": "",
+    "metadata": [
+        {
+            "label": "Author",
+            "value": "Leander Seige"
+        }
+    ],
+    "related": [],
+    "sequences": [
+        {
+            "@id": "https://static.185.126.47.78.clients.your-server.de/manifests/7d1e1d50136005e34571d46c317e435f.json/sequence/1",
+            "@type": "sc:Sequence",
+            "canvases": []
+        }
+    ]
+}
