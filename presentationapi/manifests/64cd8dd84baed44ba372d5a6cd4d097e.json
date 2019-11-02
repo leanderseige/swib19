@@ -3,6 +3,7 @@
     "@id": "https://static.185.126.47.78.clients.your-server.de/manifests/64cd8dd84baed44ba372d5a6cd4d097e.json",
     "@type": "sc:Manifest",
     "attribution": "Leander Seige",
+    "description": "<unknown>",
     "label": "Wiese",
     "logo": "",
     "metadata": [
@@ -16,7 +17,158 @@
         {
             "@id": "https://static.185.126.47.78.clients.your-server.de/manifests/64cd8dd84baed44ba372d5a6cd4d097e.json/sequence/1",
             "@type": "sc:Sequence",
-            "canvases": []
+            "canvases": [
+                {
+                    "@id": "https://static.185.126.47.78.clients.your-server.de/manifests/64cd8dd84baed44ba372d5a6cd4d097e.json/canvas/1",
+                    "@type": "sc:Canvas",
+                    "format": "image/jpeg",
+                    "height": 3024,
+                    "images": [
+                        {
+                            "@id": "https://static.185.126.47.78.clients.your-server.de/manifests/64cd8dd84baed44ba372d5a6cd4d097e.json/image/1",
+                            "@type": "oa:Annotation",
+                            "license": "https://creativecommons.org/licenses/by/4.0/",
+                            "motivation": "sc:painting",
+                            "on": "https://static.185.126.47.78.clients.your-server.de/manifests/64cd8dd84baed44ba372d5a6cd4d097e.json/canvas/1",
+                            "resource": {
+                                "@id": "https://static.185.126.47.78.clients.your-server.de/manifests/64cd8dd84baed44ba372d5a6cd4d097e.json/resource/1",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3024,
+                                "label": "Wiese",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://static.185.126.47.78.clients.your-server.de/imageapi/Wiese/20190621_124734.jpg.tif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                },
+                                "width": 4032
+                            }
+                        }
+                    ],
+                    "label": "Wiese",
+                    "width": 4032
+                },
+                {
+                    "@id": "https://static.185.126.47.78.clients.your-server.de/manifests/64cd8dd84baed44ba372d5a6cd4d097e.json/canvas/2",
+                    "@type": "sc:Canvas",
+                    "format": "image/jpeg",
+                    "height": 3024,
+                    "images": [
+                        {
+                            "@id": "https://static.185.126.47.78.clients.your-server.de/manifests/64cd8dd84baed44ba372d5a6cd4d097e.json/image/2",
+                            "@type": "oa:Annotation",
+                            "license": "https://creativecommons.org/licenses/by/4.0/",
+                            "motivation": "sc:painting",
+                            "on": "https://static.185.126.47.78.clients.your-server.de/manifests/64cd8dd84baed44ba372d5a6cd4d097e.json/canvas/2",
+                            "resource": {
+                                "@id": "https://static.185.126.47.78.clients.your-server.de/manifests/64cd8dd84baed44ba372d5a6cd4d097e.json/resource/2",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3024,
+                                "label": "Wiese",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://static.185.126.47.78.clients.your-server.de/imageapi/Wiese/20190621_130459.jpg.tif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                },
+                                "width": 4032
+                            }
+                        }
+                    ],
+                    "label": "Wiese",
+                    "width": 4032
+                },
+                {
+                    "@id": "https://static.185.126.47.78.clients.your-server.de/manifests/64cd8dd84baed44ba372d5a6cd4d097e.json/canvas/3",
+                    "@type": "sc:Canvas",
+                    "format": "image/jpeg",
+                    "height": 3024,
+                    "images": [
+                        {
+                            "@id": "https://static.185.126.47.78.clients.your-server.de/manifests/64cd8dd84baed44ba372d5a6cd4d097e.json/image/3",
+                            "@type": "oa:Annotation",
+                            "license": "https://creativecommons.org/licenses/by/4.0/",
+                            "motivation": "sc:painting",
+                            "on": "https://static.185.126.47.78.clients.your-server.de/manifests/64cd8dd84baed44ba372d5a6cd4d097e.json/canvas/3",
+                            "resource": {
+                                "@id": "https://static.185.126.47.78.clients.your-server.de/manifests/64cd8dd84baed44ba372d5a6cd4d097e.json/resource/3",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3024,
+                                "label": "Wiese",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://static.185.126.47.78.clients.your-server.de/imageapi/Wiese/20190621_123720.jpg.tif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                },
+                                "width": 4032
+                            }
+                        }
+                    ],
+                    "label": "Wiese",
+                    "width": 4032
+                },
+                {
+                    "@id": "https://static.185.126.47.78.clients.your-server.de/manifests/64cd8dd84baed44ba372d5a6cd4d097e.json/canvas/4",
+                    "@type": "sc:Canvas",
+                    "format": "image/jpeg",
+                    "height": 3024,
+                    "images": [
+                        {
+                            "@id": "https://static.185.126.47.78.clients.your-server.de/manifests/64cd8dd84baed44ba372d5a6cd4d097e.json/image/4",
+                            "@type": "oa:Annotation",
+                            "license": "https://creativecommons.org/licenses/by/4.0/",
+                            "motivation": "sc:painting",
+                            "on": "https://static.185.126.47.78.clients.your-server.de/manifests/64cd8dd84baed44ba372d5a6cd4d097e.json/canvas/4",
+                            "resource": {
+                                "@id": "https://static.185.126.47.78.clients.your-server.de/manifests/64cd8dd84baed44ba372d5a6cd4d097e.json/resource/4",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3024,
+                                "label": "Wiese",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://static.185.126.47.78.clients.your-server.de/imageapi/Wiese/20190621_131736.jpg.tif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                },
+                                "width": 4032
+                            }
+                        }
+                    ],
+                    "label": "Wiese",
+                    "width": 4032
+                },
+                {
+                    "@id": "https://static.185.126.47.78.clients.your-server.de/manifests/64cd8dd84baed44ba372d5a6cd4d097e.json/canvas/5",
+                    "@type": "sc:Canvas",
+                    "format": "image/jpeg",
+                    "height": 3024,
+                    "images": [
+                        {
+                            "@id": "https://static.185.126.47.78.clients.your-server.de/manifests/64cd8dd84baed44ba372d5a6cd4d097e.json/image/5",
+                            "@type": "oa:Annotation",
+                            "license": "https://creativecommons.org/licenses/by/4.0/",
+                            "motivation": "sc:painting",
+                            "on": "https://static.185.126.47.78.clients.your-server.de/manifests/64cd8dd84baed44ba372d5a6cd4d097e.json/canvas/5",
+                            "resource": {
+                                "@id": "https://static.185.126.47.78.clients.your-server.de/manifests/64cd8dd84baed44ba372d5a6cd4d097e.json/resource/5",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3024,
+                                "label": "Wiese",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://static.185.126.47.78.clients.your-server.de/imageapi/Wiese/20190621_124800.jpg.tif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                },
+                                "width": 4032
+                            }
+                        }
+                    ],
+                    "label": "Wiese",
+                    "width": 4032
+                }
+            ]
         }
     ]
 }

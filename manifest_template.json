@@ -3,6 +3,7 @@
     "@id": "<uri>",
     "@type": "sc:Manifest",
     "attribution": "<unknown>",
+    "description": "<unknown>",
     "label": "<unkown>",
     "logo": "",
     "metadata": [],
