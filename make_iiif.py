@@ -13,6 +13,7 @@ def buildManifest(manifest,folder,config):
     manifest['@id'] = uri
     manifest['label'] = folder.split('/')[1].replace('_',' ')
     manifest['attribution'] = config['attribution']
+    manifest['description'] = config['description']
     manifest['sequences'][0]['@id'] = uri+"/sequence/1"
     manifest['metadata'].append( { 'label' : 'Author' , 'value' : config['creator'] } )
     return manifest
