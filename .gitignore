@@ -1,3 +1,4 @@
 *.tif
 presenations/manifests/*
+!presenations/manifests
 
