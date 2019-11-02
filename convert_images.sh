@@ -2,7 +2,6 @@
 
 find imageapi -name "*jpg" | while read i
 do
-    echo "converting $i"
-    echo $(basename $i)
+    echo "converting $i to $i.tif"
     convert "$i" -define tiff:tile-geometry=256x256 -compress jpeg -quality 96 "ptif:$i.tif"
 done
