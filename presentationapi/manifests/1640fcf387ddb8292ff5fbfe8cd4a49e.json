@@ -1,44 +1,44 @@
 {
     "@context": "http://iiif.io/api/presentation/2/context.json",
-    "@id": "https://static.185.126.47.78.clients.your-server.de/manifests/1640fcf387ddb8292ff5fbfe8cd4a49e.json",
+    "@id": "https://static.154.172.47.78.clients.your-server.de/manifests/1640fcf387ddb8292ff5fbfe8cd4a49e.json",
     "@type": "sc:Manifest",
-    "attribution": "Leander Seige",
-    "description": "<unknown>",
+    "attribution": "Leander",
+    "description": "Leander's SWIB19 demo dataset",
     "label": "Burg Bad Liebenstein",
     "logo": "",
     "metadata": [
         {
             "label": "Author",
-            "value": "Leander Seige"
+            "value": "Leander"
         }
     ],
     "related": [],
     "sequences": [
         {
-            "@id": "https://static.185.126.47.78.clients.your-server.de/manifests/1640fcf387ddb8292ff5fbfe8cd4a49e.json/sequence/1",
+            "@id": "https://static.154.172.47.78.clients.your-server.de/manifests/1640fcf387ddb8292ff5fbfe8cd4a49e.json/sequence/1",
             "@type": "sc:Sequence",
             "canvases": [
                 {
-                    "@id": "https://static.185.126.47.78.clients.your-server.de/manifests/1640fcf387ddb8292ff5fbfe8cd4a49e.json/canvas/1",
+                    "@id": "https://static.154.172.47.78.clients.your-server.de/manifests/1640fcf387ddb8292ff5fbfe8cd4a49e.json/canvas/1",
                     "@type": "sc:Canvas",
                     "format": "image/jpeg",
                     "height": 3024,
                     "images": [
                         {
-                            "@id": "https://static.185.126.47.78.clients.your-server.de/manifests/1640fcf387ddb8292ff5fbfe8cd4a49e.json/image/1",
+                            "@id": "https://static.154.172.47.78.clients.your-server.de/manifests/1640fcf387ddb8292ff5fbfe8cd4a49e.json/image/1",
                             "@type": "oa:Annotation",
                             "license": "https://creativecommons.org/licenses/by/4.0/",
                             "motivation": "sc:painting",
-                            "on": "https://static.185.126.47.78.clients.your-server.de/manifests/1640fcf387ddb8292ff5fbfe8cd4a49e.json/canvas/1",
+                            "on": "https://static.154.172.47.78.clients.your-server.de/manifests/1640fcf387ddb8292ff5fbfe8cd4a49e.json/canvas/1",
                             "resource": {
-                                "@id": "https://static.185.126.47.78.clients.your-server.de/manifests/1640fcf387ddb8292ff5fbfe8cd4a49e.json/resource/1",
+                                "@id": "https://static.154.172.47.78.clients.your-server.de/manifests/1640fcf387ddb8292ff5fbfe8cd4a49e.json/resource/1",
                                 "@type": "dctypes:Image",
                                 "format": "image/jpeg",
                                 "height": 3024,
                                 "label": "Burg Bad Liebenstein",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
-                                    "@id": "https://static.185.126.47.78.clients.your-server.de/imageapi/Burg_Bad_Liebenstein/20191013_113439.jpg.tif",
+                                    "@id": "https://static.154.172.47.78.clients.your-server.de/imageapi/Burg_Bad_Liebenstein/20191013_113439.jpg.ptif",
                                     "profile": "http://iiif.io/api/image/2/level1.json"
                                 },
                                 "width": 4032
@@ -49,26 +49,56 @@
                     "width": 4032
                 },
                 {
-                    "@id": "https://static.185.126.47.78.clients.your-server.de/manifests/1640fcf387ddb8292ff5fbfe8cd4a49e.json/canvas/2",
+                    "@id": "https://static.154.172.47.78.clients.your-server.de/manifests/1640fcf387ddb8292ff5fbfe8cd4a49e.json/canvas/2",
+                    "@type": "sc:Canvas",
+                    "format": "image/jpeg",
+                    "height": 2268,
+                    "images": [
+                        {
+                            "@id": "https://static.154.172.47.78.clients.your-server.de/manifests/1640fcf387ddb8292ff5fbfe8cd4a49e.json/image/2",
+                            "@type": "oa:Annotation",
+                            "license": "https://creativecommons.org/licenses/by/4.0/",
+                            "motivation": "sc:painting",
+                            "on": "https://static.154.172.47.78.clients.your-server.de/manifests/1640fcf387ddb8292ff5fbfe8cd4a49e.json/canvas/2",
+                            "resource": {
+                                "@id": "https://static.154.172.47.78.clients.your-server.de/manifests/1640fcf387ddb8292ff5fbfe8cd4a49e.json/resource/2",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2268,
+                                "label": "Burg Bad Liebenstein",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://static.154.172.47.78.clients.your-server.de/imageapi/Burg_Bad_Liebenstein/20181020_110950.jpg.ptif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                },
+                                "width": 4032
+                            }
+                        }
+                    ],
+                    "label": "Burg Bad Liebenstein",
+                    "width": 4032
+                },
+                {
+                    "@id": "https://static.154.172.47.78.clients.your-server.de/manifests/1640fcf387ddb8292ff5fbfe8cd4a49e.json/canvas/3",
                     "@type": "sc:Canvas",
                     "format": "image/jpeg",
                     "height": 4032,
                     "images": [
                         {
-                            "@id": "https://static.185.126.47.78.clients.your-server.de/manifests/1640fcf387ddb8292ff5fbfe8cd4a49e.json/image/2",
+                            "@id": "https://static.154.172.47.78.clients.your-server.de/manifests/1640fcf387ddb8292ff5fbfe8cd4a49e.json/image/3",
                             "@type": "oa:Annotation",
                             "license": "https://creativecommons.org/licenses/by/4.0/",
                             "motivation": "sc:painting",
-                            "on": "https://static.185.126.47.78.clients.your-server.de/manifests/1640fcf387ddb8292ff5fbfe8cd4a49e.json/canvas/2",
+                            "on": "https://static.154.172.47.78.clients.your-server.de/manifests/1640fcf387ddb8292ff5fbfe8cd4a49e.json/canvas/3",
                             "resource": {
-                                "@id": "https://static.185.126.47.78.clients.your-server.de/manifests/1640fcf387ddb8292ff5fbfe8cd4a49e.json/resource/2",
+                                "@id": "https://static.154.172.47.78.clients.your-server.de/manifests/1640fcf387ddb8292ff5fbfe8cd4a49e.json/resource/3",
                                 "@type": "dctypes:Image",
                                 "format": "image/jpeg",
                                 "height": 4032,
                                 "label": "Burg Bad Liebenstein",
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
-                                    "@id": "https://static.185.126.47.78.clients.your-server.de/imageapi/Burg_Bad_Liebenstein/20191013_120612.jpg.tif",
+                                    "@id": "https://static.154.172.47.78.clients.your-server.de/imageapi/Burg_Bad_Liebenstein/20191013_120612.jpg.ptif",
                                     "profile": "http://iiif.io/api/image/2/level1.json"
                                 },
                                 "width": 3024
@@ -77,36 +107,6 @@
                     ],
                     "label": "Burg Bad Liebenstein",
                     "width": 3024
-                },
-                {
-                    "@id": "https://static.185.126.47.78.clients.your-server.de/manifests/1640fcf387ddb8292ff5fbfe8cd4a49e.json/canvas/3",
-                    "@type": "sc:Canvas",
-                    "format": "image/jpeg",
-                    "height": 2268,
-                    "images": [
-                        {
-                            "@id": "https://static.185.126.47.78.clients.your-server.de/manifests/1640fcf387ddb8292ff5fbfe8cd4a49e.json/image/3",
-                            "@type": "oa:Annotation",
-                            "license": "https://creativecommons.org/licenses/by/4.0/",
-                            "motivation": "sc:painting",
-                            "on": "https://static.185.126.47.78.clients.your-server.de/manifests/1640fcf387ddb8292ff5fbfe8cd4a49e.json/canvas/3",
-                            "resource": {
-                                "@id": "https://static.185.126.47.78.clients.your-server.de/manifests/1640fcf387ddb8292ff5fbfe8cd4a49e.json/resource/3",
-                                "@type": "dctypes:Image",
-                                "format": "image/jpeg",
-                                "height": 2268,
-                                "label": "Burg Bad Liebenstein",
-                                "service": {
-                                    "@context": "http://iiif.io/api/image/2/context.json",
-                                    "@id": "https://static.185.126.47.78.clients.your-server.de/imageapi/Burg_Bad_Liebenstein/20181020_110950.jpg.tif",
-                                    "profile": "http://iiif.io/api/image/2/level1.json"
-                                },
-                                "width": 4032
-                            }
-                        }
-                    ],
-                    "label": "Burg Bad Liebenstein",
-                    "width": 4032
                 }
             ]
         }

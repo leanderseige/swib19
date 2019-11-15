@@ -1,0 +1,54 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://static.154.172.47.78.clients.your-server.de/manifests/033e1077b473326daae731f115885920.json",
+    "@type": "sc:Manifest",
+    "attribution": "Leander",
+    "description": "Leander's SWIB19 demo dataset",
+    "label": "commons",
+    "logo": "",
+    "metadata": [
+        {
+            "label": "Author",
+            "value": "Leander"
+        }
+    ],
+    "related": [],
+    "sequences": [
+        {
+            "@id": "https://static.154.172.47.78.clients.your-server.de/manifests/033e1077b473326daae731f115885920.json/sequence/1",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://static.154.172.47.78.clients.your-server.de/manifests/033e1077b473326daae731f115885920.json/canvas/1",
+                    "@type": "sc:Canvas",
+                    "format": "image/jpeg",
+                    "height": 15596,
+                    "images": [
+                        {
+                            "@id": "https://static.154.172.47.78.clients.your-server.de/manifests/033e1077b473326daae731f115885920.json/image/1",
+                            "@type": "oa:Annotation",
+                            "license": "https://creativecommons.org/licenses/by/4.0/",
+                            "motivation": "sc:painting",
+                            "on": "https://static.154.172.47.78.clients.your-server.de/manifests/033e1077b473326daae731f115885920.json/canvas/1",
+                            "resource": {
+                                "@id": "https://static.154.172.47.78.clients.your-server.de/manifests/033e1077b473326daae731f115885920.json/resource/1",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 15596,
+                                "label": "commons",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://static.154.172.47.78.clients.your-server.de/imageapi/commons/Bath_from_alexandra_park.jpg.ptif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                },
+                                "width": 50000
+                            }
+                        }
+                    ],
+                    "label": "commons",
+                    "width": 50000
+                }
+            ]
+        }
+    ]
+}

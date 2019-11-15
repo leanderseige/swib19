@@ -7,6 +7,8 @@ import cv2
 import glob
 import hashlib
 import copy
+import subprocess
+import sys
 
 def buildManifest(manifest,folder,config):
     uri = config['baseurl']+"/manifests/"+id+".json"
@@ -27,9 +29,8 @@ def addCanvasToManifest(manifest,canvas,config,image,ic):
     # linke IDs
     canvas['images'][0]['on'] = canvas['@id']
     # set image dimensions
-    img = cv2.imread(image)
-    height = img.shape[0]
-    width = img.shape[1]
+    output = subprocess.check_output(["./get_image_dim.sh", image[:-5]])
+    width, height = [int(v) for v in output.strip().split('x')]
     canvas['width'] = width
     canvas['images'][0]['resource']['width'] = width
     canvas['height'] = height
@@ -60,7 +61,7 @@ for folder in folders:
     manifest = copy.deepcopy(manifest_template)
     id = hashlib.md5(folder.encode()).hexdigest()
     manifest = buildManifest(manifest, folder, config)
-    images = [image for image in glob.glob(folder+"/*.tif")]
+    images = [image for image in glob.glob(folder+"/*.ptif")]
     ic = 1
     for image in images:
         canvas = copy.deepcopy(canvas_template)
