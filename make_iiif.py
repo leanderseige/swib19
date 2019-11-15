@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+from __future__ import print_function
 import base64
 import json
 import cv2
@@ -68,6 +69,6 @@ for folder in folders:
         manifest = addCanvasToManifest(manifest,canvas,config,image,ic)
         ic = ic +1
     filename = "presentationapi/manifests/"+id+".json"
-    print "writing: "+filename
+    print("writing: "+filename)
     with open(filename, 'w') as outfile:
         json.dump(manifest, outfile, sort_keys=True, indent=4, separators=(',', ': '))
